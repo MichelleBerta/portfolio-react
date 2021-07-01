@@ -1,30 +1,29 @@
 import React from "react";
+import Nav from 'react-bootstrap/Nav'
+
+
 
 function Footer() {
   return (
-    <div>
-      <footer className="contact" id="contact-me">
-        <nav className="navbar navbar-light bg-light row justify-content-center">
-          <h2 className="text-dark col-12 col-lg-8 text-center">I look forward to connecting with you.</h2>
-          <a className="navbar-link text-dark col-12 col-lg-2 text-center" href="tel:+4693580710" target="_blank" rel="noreferrer">
-            469-358-0710 <br />
-            <a className="navbar-link text-dark col-12 col-lg-2 text-center" href="mailto:michelle.berta@att.net" target="_blank" rel="noreferrer">
-              michelle.berta@att.net
-              <i className="fas fa-envelope-square"></i>
-            </a>
-          </a>
 
-          <a className="navbar-link text-dark col-12 col-lg-2 text-center" href="https://github.com/MichelleBerta" target="_blank" rel="noreferrer">
-            GitHub
-            <i className="fab fa-github-square"></i> <br />
-            <a href="https://www.linkedin.com/in/michelle-berta" target="_blank" rel="noreferrer">
-              LinkedIn
-            </a>
-          </a>
-        </nav>
-      </footer>
-    </div>
+          <Nav fill justify className="justify-content-center footer" activeKey="/home">
+          <h2 className="col-12 col-lg-6 text-center">I look forward to connecting with you.</h2>
+              <Nav.Item>
+                  <Nav.Link className="link col-12 col-lg-4 text-center" href="tel:+469-358-0710" target="_blank">469-358-0710</Nav.Link>
+              </Nav.Item>
+              <Nav.Item>
+                  <Nav.Link className="link" href="mailto:michelle.berta@att.net" target="_blank">Email</Nav.Link>
+              </Nav.Item>
+              <Nav.Item>
+                  <Nav.Link className="link col-12 col-lg-2 text-center" href="https://github.com/michelleberta" target="_blank">GitHub</Nav.Link>
+              </Nav.Item>
+              <Nav.Item>
+                  <Nav.Link className="link" href="https://www.linkedin.com/in/michelle-berta" target="_blank">LinkedIn</Nav.Link>
+              </Nav.Item>
+          </Nav>
+
   );
 }
+
 
 export default Footer;

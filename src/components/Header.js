@@ -6,7 +6,7 @@ import Logo from "../assets/MBLogo.png";
 function Header() {
   return (
     <Navbar className="p-2" bg="dark" expand="lg" fixed="top">
-      <Navbar.Brand href="#about">
+      <Navbar.Brand href="#home">
       <img
         src={Logo}
         width="50"

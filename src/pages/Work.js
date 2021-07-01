@@ -6,7 +6,6 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { Card, Button } from "react-bootstrap";
 
 function Work() {
-  // console.log(work)------need tech and image;
   return (
     <div className="container pt-5" id="work">
       <div className="row justify-content-center">

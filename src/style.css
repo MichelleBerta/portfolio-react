@@ -32,7 +32,6 @@ body {
 
 .about-me {
   margin-top: 7rem !important;
-  position: relative;
 }
 h3 {
   font-family: "Pacifico", cursive;
@@ -71,7 +70,7 @@ h3::after {
 }
 
 .footer {
-  position: absolute;
+  position: static;
   color: #a565e0 !important;
 }
 
