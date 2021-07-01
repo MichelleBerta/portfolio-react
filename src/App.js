@@ -13,6 +13,7 @@ function App() {
       <Router>
         <main className="main-container">
           <Header />
+          <Route exact path="/" component={About} />
           <Route exact path="/skills" component={Skills} />
           <Route exact path="/about" component={About} />
           <Route exact path="/work" component={Work} />
