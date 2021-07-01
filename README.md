@@ -8,7 +8,7 @@
 ## Description
 This is my portfolio created using bootstrap in React.  The user has the ability to click the navigation to go to examples of my work and skills learned.  My contact information and resume can be accesses using the navigation links as well.  The work example cards include gifs and links to their repos or demo videos. 
 
-### Click this link to view the deployed application (https://) 
+### Click this link to view the deployed application (https://michelleberta.github.io/portfolio-react/) 
 
 ## Technology
 * React.js
