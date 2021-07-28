@@ -12,7 +12,7 @@ function Work() {
         <h2 className="col-12">Please feel free to look at some of my work.</h2>
         <div className="row justify-content-center" id="full">
           {workFull.map((workFull) => (
-            <Card className="col-12" style={{ width: "30rem" }}>
+            <Card className="col-12 shadow p-3 mb-5 bg-white rounded" style={{ width: "30rem" }}>
               <Card.Img variant="top" className="testimonialImages d-block p-5 w-100 img-fluid rounded" src={workFull.image} alt={workFull.alt} />
               <Card.Body>
                 <Card.Title>{workFull.title}</Card.Title>
