@@ -15,14 +15,26 @@ body {
   background-color: var(--charcoal);
 }
 
-
 /* navbar */
+.p-2 {
+  position: sticky !important;
+}
+
 .nav-link,
 .navbar-brand {
   font-size: 1.4rem;
   color: #a565e0 !important;
-  position: sticky !important;
 }
+
+
+.navbar-light,
+.navbar-toggler {
+/* .navbar-toggler-icon  */
+  color: rgba(#a565e0) !important;
+  border-color: #a565e0 !important;
+  /* background-image: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e); */
+}
+
 
 .headshot {
   max-width: 15%;
@@ -31,7 +43,7 @@ body {
 }
 
 .about-me {
-  margin-top: 7rem !important;
+  margin-top: 3rem !important;
 }
 h3 {
   font-family: "Pacifico", cursive;
@@ -47,7 +59,12 @@ h3::after {
 
 /* skills */
 .skills {
-  margin-top: 5rem;
+  margin-top: 3rem;
+}
+
+/* work */
+#work {
+  margin-top: 3rem;
 }
 
 /* work cards */
@@ -57,22 +74,23 @@ h3::after {
 
 .card-text,
 .card-title {
-  color:#a565e0;
+  color: #a565e0;
   font-size: 1.4rem;
 }
 
 .btn {
   margin: 0.5rem;
   background-color: #a565e0;
-    background-color: cutom-color;
-    border-color: #a565e0;
-    border-color: cutom-cor;
+  background-color: cutom-color;
+  border-color: #a565e0;
+  border-color: cutom-cor;
 }
 
 .footer {
-  position: static;
   color: #a565e0 !important;
+  background-color: black !important;
 }
+
 
 @media only screen and (max-width: 992px) {
   .headshot {
