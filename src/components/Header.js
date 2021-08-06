@@ -75,7 +75,7 @@ function Header() {
           <Nav className="mr-auto">
             <Nav.Link href="#skills">Skills</Nav.Link>
             <Nav.Link href="#work">Work</Nav.Link>
-            <Nav.Link href="https://drive.google.com/file/d/1lmAvYU5qVOZQEZNKDqW0E1So_mIqU4xX/view?usp=sharing" target="_blank">Resume</Nav.Link>
+            <Nav.Link href="https://drive.google.com/file/d/1DA4V3bjUV12uftMTddc4wujJQetGzVsZ/view?usp=sharing" target="_blank">Resume</Nav.Link>
 
            <NavDropdown title="Contact" id="basic-nav-dropdown">
               <NavDropdown.Item href="tel:+4693580710" target="_blank">
