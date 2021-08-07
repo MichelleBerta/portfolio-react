@@ -1,5 +1,6 @@
 import budget from './assets/budgetTracker.gif'
 import workout from './assets/workoutTracker.gif'
+import employee from './assets/employeeDirectory.gif'
 
 const workFull =[
     {
@@ -21,7 +22,18 @@ const workFull =[
         "deployed": "https://blooming-earth-81679.herokuapp.com/stats",
         "image": workout,
         "alt": "Workout Tracker App"
+    },
+    {
+        "id": 5,
+        "title": "Employee Directory",
+        "description": "This employee directory, created using React, is an application designed so the user can view nonsensative information about employees. The user can filter employees by last name using the search bar or sort employees by first name by clicking any column heading.",
+        "technology": "ReactJS, JSX, Random User API",
+        "repo": "https://github.com/MichelleBerta/employee-directory",
+        "deployed": "https://michelleberta.github.io/employee-directory",
+        "image": employee,
+        "alt": "Employee Directory App"
     }
+
 ]
 
 export default workFull;

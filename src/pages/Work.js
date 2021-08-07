@@ -56,7 +56,7 @@ function Work() {
               <Card.Img variant="top" className="testimonialImages d-block p-5 w-100 img-fluid rounded" src={workFront.image} alt={workFront.alt} />
               <Card.Body>
                 <Card.Title>{workFront.title}</Card.Title>
-                <Card.Subtitle className="mb-2 text-muted">Front Stack Application</Card.Subtitle>
+                <Card.Subtitle className="mb-2 text-muted">Front End Application</Card.Subtitle>
                 <Card.Text>{workFront.description}</Card.Text>
                 <Card.Text>TECHNOLOGIES USED: {workFront.technology}</Card.Text>
                 <Button target="_blank" href={workFront.deployed}>
